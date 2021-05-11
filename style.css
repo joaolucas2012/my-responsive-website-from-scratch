@@ -98,6 +98,7 @@ footer{
   font-size: 20.5pt;
 }
 #Container{
+  border-radius: 10px;
   margin-top:15%;
   float: left;
   width: 100%;
@@ -107,6 +108,7 @@ footer{
 }
 #Container img{
   width: 100%;
+  border-radius: 10px;
 }
 @keyframes animate{
   from{
@@ -140,6 +142,7 @@ footer{
   padding-top: 1em;
   padding-bottom: 1em;
   border: 5px solid orangered;
+  border-radius: 10px;
   width:50vw;
   text-align: center;
   color:white;
@@ -171,6 +174,7 @@ footer{
 }
 #Text-before{
   background-color:orangered;
+  border-radius: 10px;
   text-align:center;
   justify-content:center;
   float: left;
@@ -226,7 +230,7 @@ footer{
 }
 #DataAcademic{
   float: left;
-  width: 50%;
+  width: 49%;
   height: 50vh;
   border-radius: 20px;
   background-color:orangered;
@@ -238,7 +242,7 @@ footer{
   text-align: center;
   float: left;
   margin-top: 3%;
-  margin-left: 4%;
+  margin-left: 2%;
   padding-top:1;
 }
 #DataAcademic p a b{
@@ -258,8 +262,7 @@ footer{
   width: 13%;
 }
 #DataAcademic p a img:hover{
-  margin-top:1px;
-  margin-left:2%;
+  margin-left:3.2%;
 }
 #DataAcademic img{
   width:55%;
@@ -269,4 +272,39 @@ footer{
 }
 #foto{
   margin-top:5%;
+}
+#Interests{
+  float:right;
+  width: 49%;
+  height: 50vh;
+  border-radius: 20px;
+  background-color:orangered;
+}
+#Interests p{
+  font-family: monospace;
+  font-size:2.2em;
+  color: white;
+  text-align: center;
+  float: center;
+  margin-top: 3%;
+  margin-left: 0.5%;
+}
+.images{
+  background-color:white;
+  width:95%;
+  height: 40%;
+  float: left;
+  margin-left: 2.5%;
+}
+.images a img{
+  width:42%;
+  margin-left:5%;
+  justify-content: center;
+}
+.images a img:hover{
+  width:41.6%;
+}
+#description p b{
+  font-family: monospace;
+  font-size:80%;
 }
