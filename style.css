@@ -627,3 +627,21 @@ footer{
   background: #131212;
   height:8vh;
 }
+#Mensagem{
+  width:100%;
+  height:4%;
+  position:relative;
+  float:left;
+}
+#Mensagem p{
+  color: white;
+  font-size:25pt;
+  font-family: monospace;
+  text-align: center;
+}
+#Mensagem p b{
+  color: orangered;
+  font-size:30pt;
+  font-family: monospace;
+  text-align: center;
+}
