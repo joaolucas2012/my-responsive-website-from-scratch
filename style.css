@@ -255,6 +255,7 @@ footer{
 }
 #DataAcademic p a b:hover{
   color: aqua;
+  font-size: 1.72em;
 }
 #DataAcademic p a img{
   position: relative;
@@ -307,4 +308,11 @@ footer{
 #description p b{
   font-family: monospace;
   font-size:80%;
+}
+#Hobbies{
+  width: 100%;
+  height:60%;
+  float: left;
+  position: relative;
+  background-color:black;
 }
