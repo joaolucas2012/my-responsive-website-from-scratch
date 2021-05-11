@@ -328,7 +328,7 @@ footer{
 }
 @keyframes animaHob-1{
   from{
-    width: 49.5%;
+    width: 49%;
     height: 50%;
     border: 3px solid white;
     border-radius: 10px;
@@ -340,8 +340,7 @@ footer{
   }
 }
 #Hob-1{
-  width: 49.5%;
-  height: 50%;
+  width: 49%;
   border: 3px solid white;
   border-radius: 10px;
   float: left;
@@ -376,8 +375,60 @@ footer{
   width: 35%;
   float: right;
   margin-right: 31%;
+  margin-top:-1%;
+  padding-bottom: 1%;
+  border-radius: 10px;
+}
+@keyframes animaHob-2{
+  from{
+    width: 49%;
+    height: 50%;
+    border: 3px solid white;
+    border-radius: 10px;
+    float: right;
+    background-color: rgb(255, 8, 0);
+  }
+  to{
+    background-color:#131212;
+  }
+}
+#Hob-2{
+  width: 49%;
+  border: 3px solid white;
+  border-radius: 10px;
+  float: right;
+  background-color: rgb(255, 8, 0);
+  animation:animaHob-2 2s 2s 10000 alternate;
+}
+#Hob-2 p{
+  width: 95%;
+  margin-left: 3%;
+}
+#Hob-2 p a b{
+  position: relative;
+  float: left;
+  color: white;
+  text-decoration: underline;
+  font-size:0.8em;
+  margin-top:0.5%;
+}
+#Hob-2 p a b:hover{
+  color:aqua;
+}
+#Hob-2 p a{
+  text-decoration: underline;
+}
+#Hob-2 p a:visited{
+  color: white;
+}
+#Hob-2 p a:hover{
+  color:aqua;
+}
+#Foto2{
+  width: 35%;
+  float: right;
+  margin-right: 31%;
   margin-top:-2%;
   padding-bottom: 1%;
   border-radius: 10px;
-  animation: animaFoto1 0.8s 0.5s 10000 alternate; 
 }
