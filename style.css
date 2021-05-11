@@ -38,10 +38,6 @@ header{
   z-index: 10;
   vertical-align: middle;
 }
-footer{
-  background: #131212;
-  height:8vh;
-}
 #menu{
   align-items: center;
   z-index: 10;
@@ -313,6 +309,7 @@ footer{
   width: 100%;
   float: left;
   position: relative;
+  margin-top:3%;
   border-radius: 70px;
   background-color:black;
 }
@@ -435,10 +432,11 @@ footer{
 }
 #Contact{
   width: 100%;
-  height:20%;
   position: relative;
   float: left;
-  margin-top:5%;
+  margin-top:3%;
+  margin-bottom: 3%;
+  border-radius:70px;
   background-color:black;
 }
 #Contact p b{
@@ -456,4 +454,157 @@ footer{
   font-family: monospace;
   text-transform: uppercase;
   color: white;
+}
+#allCont{
+  width: 100%;
+  position: relative;
+  float: left;
+  background-color:white;
+  border-radius:15px;
+  animation: animaCont 2s 2s 10000 alternate;
+}
+@keyframes animaCont{
+  from{
+    width: 100%;
+    position: relative;
+    float: left;
+    background-color:white;
+  }
+  to{
+    background-color:orangered;
+  }
+}
+#YtLinked{
+  width: 95%;
+  position: relative;
+  float: left;
+  background-color:#131212;
+  margin-top: 1.5%;
+  margin-left: 2.5%;
+  border-radius: 15px;
+}
+#YtLinked p{
+  font-size:150%;
+  font-family: monospace;
+  color: white;
+  text-align: center;
+}
+#YtLinked p b{
+  font-size:14pt;
+  font-family: monospace;
+  color: orangered;
+  text-align: center;
+}
+#YtLinked strong{
+  font-size:1.5em;
+  font-family: monospace;
+  text-align: center;
+  color: orangered;
+}
+#Yt-2{
+  width:15%;
+  height: 12%;
+  float:left;
+  margin-left: 40%;
+  margin-top: 2%;
+  padding-bottom: 1.5%;
+}
+#Yt-2:hover{
+  width:14.8%;
+}
+#linkedin-2{
+  width:13%;
+  height: 12%;
+  float:left;
+  margin-left: 42%;
+  margin-top: 1%;
+  padding-bottom: 1.5%;
+}
+#linkedin-2:hover{
+  width:12.8%;
+}
+#JustGit{
+  width: 95%;
+  position: relative;
+  float: left;
+  background-color:#131212;
+  margin-top: 1.5%;
+  margin-left: 2.5%;
+  border-radius: 15px;
+}
+#JustGit p{
+  font-size:150%;
+  font-family: monospace;
+  color: white;
+  text-align: center;
+}
+#JustGit p b{
+  font-size:15pt;
+  font-family: monospace;
+  color: orangered;
+  text-align: center;
+}
+#Git-2{
+  width:35%;
+  float:left;
+  margin-left: 35%;
+  padding-bottom: 1.5%;
+}
+#Git-2:hover{
+  width:34.7%;
+}
+#JustGit strong{
+  font-size:2em;
+  font-family: monospace;
+  text-align: center;
+  color: orangered;
+}
+#FaceGmail{
+  width: 95%;
+  position: relative;
+  float: left;
+  background-color:#131212;
+  margin-top: 1.5%;
+  margin-left: 2.5%;
+  border-radius: 15px;
+}
+#FaceGmail p{
+  font-size:150%;
+  font-family: monospace;
+  color: white;
+  text-align: center;
+}
+#FaceGmail p b{
+  font-size:15pt;
+  font-family: monospace;
+  color: orangered;
+  text-align: center;
+}
+#Face-2{
+  width:20%;
+  float:left;
+  margin-left: 40%;
+  padding-bottom: 1.5%;
+}
+#Face-2:hover{
+  width:19.8%;
+}
+#Gmail-2{
+  width:18%;
+  float:left;
+  margin-left: 40%;
+  padding-bottom: 1.8%;
+}
+#Gmail-2:hover{
+  width:17.8%;
+}
+#FaceGmail strong{
+  font-size:1.5em;
+  font-family: monospace;
+  text-align: center;
+  color: orangered;
+}
+footer{
+  background: #131212;
+  height:8vh;
 }
