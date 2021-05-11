@@ -218,7 +218,26 @@ header{
   text-align: center;
 }
 #Ensino{
-  margin-top:5%;
+  width: 100%;
+  float: left;
+  position: relative;
+  margin-top:3%;
+  border-radius: 70px;
+  background-color:black;
+}
+#Ensino p{
+  float: center;
+  text-align: center;
+  font-size: 3em;
+  font-family: monospace;
+  color: white;
+  text-transform: uppercase;
+}
+#Ensino p b{
+  color: orangered;
+}
+#Academic{
+  margin-top:3%;
   width: 100%;
   position: relative;
   float: left;
@@ -305,7 +324,7 @@ header{
   font-family: monospace;
   font-size:80%;
 }
-#hobbies{
+#Hobbies{
   width: 100%;
   float: left;
   position: relative;
@@ -313,7 +332,7 @@ header{
   border-radius: 70px;
   background-color:black;
 }
-#hobbies p{
+#Hobbies p{
   float: center;
   text-align: center;
   font-size: 3em;
@@ -321,7 +340,7 @@ header{
   color: white;
   text-transform: uppercase;
 }
-#hobbies p b{
+#Hobbies p b{
   color: orangered;
 }
 @keyframes animaHob-1{
