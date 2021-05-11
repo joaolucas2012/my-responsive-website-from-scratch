@@ -1,12 +1,20 @@
+html{
+  scroll-behavior: smooth;
+}
 *{
   box-sizing: border-box;
 }
 body {
   margin: 0;
+  display:flex;
+  min-height: 100vh;
+  flex-direction:column;
+  background:linear-gradient(to top, black, rgb(49, 6, 56), rgba(9, 40, 47, 0.87));
 }
 #main{
   display: flex;
-  min-height: calc(100vh - 40vh);
+  min-height: calc(100vh - 16vh);
+  flex: 1;
 }
 #main>article{
   flex: 1;
@@ -14,15 +22,197 @@ body {
 #main>nav,
 #main>aside{
   flex: 0 0 20vw;
-  background:aqua;
+  background:white;
 }
 #main>nav{
   order: -1;
 }
-header, footer, article, nav, aside{
+footer, article, nav, aside{
   padding: 1em;
 }
-header, footer{
-  background: #222;
-  height:20vh;
+header{
+  background: #131212;
+  height:8vh;
+  display: flex;
+  position:fixed;
+  vertical-align: middle;
+}
+footer{
+  background: #131212;
+  height:8vh;
+}
+#menu{
+  align-items: center;
+  z-index: 10;
+  width: 100vw;
+}
+#logo{
+  min-width:calc(100vw - 75vw);
+  margin-left: 2%;
+  float: left;
+  margin-top: -1%;
+}
+#logo a p b{
+  color:orangered;
+  font-size: 22pt;
+  position:relative;
+}
+#logo a:hover{
+  color: aqua;
+  font-size: 20.5pt;
+}
+#logo a{
+  display: inline;
+  text-decoration: none;
+  color: white;
+  font-family:monospace;
+  text-transform: uppercase;
+  font-size: 20pt;
+}
+#Links{
+  position: relative;
+  float: left;
+  align-items: center;  
+  width:calc(100vw - 30vw);
+  text-align: center;
+}
+#Links ul li{
+  padding-left:2%;
+  float: right;
+  position: relative;
+  list-style-type: none;
+}
+#Links ul li a b{
+  color: orangered;
+}
+#Links ul li a{
+  text-decoration: none;
+  color: white;
+  font-family:monospace;
+  text-transform: uppercase;
+  font-size: 20pt;
+}
+#Links ul li a:hover{
+  color: aqua;
+  font-size: 20.5pt;
+}
+#Container{
+  margin-top:15%;
+  float: left;
+  width: 100%;
+  padding: 1em;
+  background-color: Black;
+  animation:animate 1s 1s 10000 alternate;
+}
+#Container img{
+  width: 100%;
+}
+@keyframes animate{
+  from{
+    width: 100%;
+    padding: 1em;
+    background-color: #131212;
+  }
+  to{
+    background-color:orangered;
+  }
+}
+#Information h1{
+  text-align: center;
+  font-family:monospace;
+  text-transform: uppercase;
+  font-size: 50pt;
+  color: white;
+  text-shadow: 10px 8px 12px black;
+  margin-top:4.3%;
+}
+#Information h1 b{
+  color: orangered;
+  font-size: 50pt;
+  text-shadow: 10px 10px 8px black;
+}
+#Data p{
+  font-family:monospace;
+  font-size: 200%;
+  float:right;
+  margin-right: 8%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border: 5px solid orangered;
+  width:50vw;
+  text-align: center;
+  color:white;
+  background-color:#131212;
+}
+#Data p b{
+  color: orangered;
+}
+#Data p a{
+  text-decoration: none;
+  color: white;
+}
+#Data a strong:hover{
+  color: aqua;
+}
+@keyframes animaBefore{
+  from{
+    background-color:orangered;
+    text-align:center;
+    justify-content:center;
+    float: left;
+    width:50vw;
+    float:right;
+    margin-right: 8%;
+  }
+  to{
+    background-color:#131212;
+  }
+}
+#Text-before{
+  background-color:orangered;
+  text-align:center;
+  justify-content:center;
+  float: left;
+  width:50vw;
+  float:right;
+  margin-right: 8%;
+  animation:animaBefore 1s 1s 10000 alternate;
+}
+#Text-before p b{
+  font-size:200%;
+  font-family:monospace;
+  color: white;
+  text-align: center;
+}
+#Text-before a{
+  text-transform: uppercase;
+}
+#Text-before p b a:visited{
+  color: white;
+}
+#Text-before p b a:hover{
+  color:aqua;
+}
+#Chapolin{
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 40%;
+  background-color: white;
+  margin-top:4.5%;
+}
+#Chapolin img{
+  float: left;
+  width:20%;
+  margin-left:10em;
+}
+#Chapolin p{
+  float: right;
+  width: 50%;
+  margin-right: 8%;
+  margin-top: 8%;
+  font-size: 4.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  text-align: center;
 }
