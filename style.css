@@ -256,9 +256,6 @@ header{
   justify-content: center;
   text-align: center;
 }
-#Chapolin p::first-letter{
-  color: orangered;
-}
 #Ensino{
   width: 100%;
   float: left;
@@ -284,20 +281,12 @@ header{
   position: relative;
   float: left;
 }
-#Academic p::first-letter{
-  color: black;
-  font-size: 110%;
-}
 #DataAcademic{
   float: left;
   width: 49%;
   height: 50vh;
   border-radius: 20px;
   background-color:orangered;
-}
-#DataAcademic b::first-letter{
-  color: black;
-  font-size: 110%;
 }
 #DataAcademic p b{
   font-family: monospace;
@@ -558,14 +547,12 @@ header{
   border-radius: 15px;
 }
 #YtLinked p{
+  width:98%;
   font-size:150%;
   font-family: monospace;
   color: white;
   text-align: center;
-}
-#YtLinked p::first-letter{
-  color: orangered;
-  font-size:110%;
+  margin-left: 1%;
 }
 #YtLinked p b{
   font-size:14pt;
@@ -616,10 +603,6 @@ header{
   color: white;
   text-align: center;
 }
-#JustGit p::first-letter{
-  color: orangered;
-  font-size:110%;
-}
 #JustGit p b{
   font-size:15pt;
   font-family: monospace;
@@ -656,10 +639,6 @@ header{
   font-family: monospace;
   color: white;
   text-align: center;
-}
-#FaceGmail p::first-letter{
-  color: orangered;
-  font-size:110%;
 }
 #FaceGmail p b{
   font-size:15pt;
